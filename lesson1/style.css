@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.top {
+  flex-grow: 1;
+}
+
+/* Container for width */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*  Header menu */
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #222222;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.menu__left {
+  display: flex;
+}
+
+.menu__right {
+  display: flex;
+}
+
+.menu__left .menu__nav:first-child {
+  padding: 18px 41px 19px 0;
+}
+
+.menu__left .menu__nav:nth-child(2) {
+  padding: 28px 0 20px;
+}
+
+.menu__right .menu__nav:first-child {
+  padding: 30px 33px 22px 0;
+}
+
+.menu__right .menu__nav:nth-child(2) {
+  padding: 26px 33px 20px 0;
+}
+
+.menu__right .menu__nav:last-child {
+  padding: 18px 0 38px;
+}
+
+/* Header Info Block */
+
+.info {
+  background-color: #f1e4e6;
+  max-height: 764px;
+}
+
+.info__blocks {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  max-height: 764px;
+}
+
+.img__logo {
+  width: 100%;
+  height: 100%;
+}
+.info__text {
+  flex-grow: 1;
+  margin-left: 63px;
+}
+
+.text__info {
+  margin-top: 290px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+.h1__info {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+}
+
+.p__info {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #222222;
+}
+
+.fashion {
+  color: #f16d7f;
+}
+
+/* Main Blocks */
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  max-height: 260px;
+}
+
+.boxes2 {
+  margin-top: 30px;
+  max-height: 180px;
+}
+.box {
+  position: relative;
+}
+.box__img {
+  width: 100%;
+}
+.box__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.p__text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.p__redtext {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #f16d7f;
+}
+
+/* Footer */
+
+.footer {
+  height: 79px;
+  background: #222224;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer__items {
+  padding: 24px 0 23px;
+}
+.footer__text {
+  padding: 30px 0 30px;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #fbfbfb;
+}
