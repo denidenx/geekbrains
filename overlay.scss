@@ -1,0 +1,74 @@
+.overlay {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  height: calc(100vh - 75px);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in;
+  .menu {
+    max-height: calc(100vh - 75px);
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: -232px;
+    width: 232px;
+    transition: right 0.2s ease-in;
+    .close {
+      background: none;
+      position: absolute;
+      border: none;
+      right: 0;
+      padding: 0;
+      top: 16px;
+      right: 17px;
+      outline: none;
+      font-size: 12px;
+    }
+  }
+  &.open {
+    opacity: 1;
+    pointer-events: all;
+    .menu {
+      right: 0;
+    }
+  }
+  .menu__list {
+    position: absolute;
+    top: 37px;
+    left: 37px;
+    .menu__h2 {
+      margin-top: 24px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+    .menu__box {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+    .menu__box__h2 {
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #f16d7f;
+    }
+    .menu__link {
+      font-size: 14px;
+      line-height: 17px;
+      padding-left: 21px;
+      text-decoration: none;
+      color: #6f6e6e;
+
+      &:hover {
+        color: #f16d7f;
+      }
+    }
+  }
+}
