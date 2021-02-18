@@ -1,0 +1,92 @@
+.overlay {
+  display: none;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  height: calc(100vh - 75px);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+
+.overlay .menu {
+  max-height: calc(100vh - 75px);
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  right: -232px;
+  width: 232px;
+  -webkit-transition: right 0.2s ease-in;
+  transition: right 0.2s ease-in;
+}
+
+.overlay .menu .close {
+  background: none;
+  position: absolute;
+  border: none;
+  right: 0;
+  padding: 0;
+  top: 16px;
+  right: 17px;
+  outline: none;
+  font-size: 12px;
+}
+
+.overlay.open {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.overlay.open .menu {
+  right: 0;
+}
+
+.overlay .menu__list {
+  position: absolute;
+  top: 37px;
+  left: 37px;
+}
+
+.overlay .menu__list .menu__h2 {
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.overlay .menu__list .menu__box {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.overlay .menu__list .menu__box__h2 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+
+.overlay .menu__list .menu__link {
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 21px;
+  text-decoration: none;
+  color: #6f6e6e;
+}
+
+.overlay .menu__list .menu__link:hover {
+  color: #f16d7f;
+}
+/*# sourceMappingURL=overlay.css.map */

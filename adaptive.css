@@ -1,0 +1,296 @@
+/* Adaptive index.html */
+
+/* Tablet 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .info {
+    max-height: 368px;
+  }
+  .main p {
+    margin-bottom: 0.3rem;
+  }
+  .boxes {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .boxes2 {
+    margin-top: 20px;
+  }
+
+  .items__btn {
+    margin-top: 32px;
+  }
+
+  .delivery {
+    margin-top: 64px;
+  }
+
+  .delivery__boxes {
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .subscribe__info {
+    padding: 64px 0 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub__info {
+    margin-top: 0;
+  }
+
+  .sub__form {
+    margin-top: 77px;
+  }
+}
+
+/* Iphone or 375px */
+
+@media screen and (max-width: 480px) {
+  .overlay .menu {
+    width: 100%;
+  }
+
+  .main p {
+    margin-bottom: 0rem;
+  }
+  .menu__right .menu__nav:first-child {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__right .menu__nav:nth-child(2),
+  .menu__right .menu__nav:last-child {
+    display: none;
+  }
+  .info__blocks {
+    padding: 149px 56px;
+  }
+  .info__text {
+    margin-left: 0;
+  }
+  .h1__info {
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 46px;
+    margin: 0;
+  }
+  .p__info {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .info__logo {
+    display: none;
+  }
+  .info__text {
+    width: 100%;
+  }
+
+  .boxes {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img__back {
+    height: 111px;
+    background-position: center;
+  }
+
+  .fetured__items {
+    margin-top: 64px;
+  }
+  .items__card {
+    margin: 16px auto 0;
+  }
+  .footer {
+    height: 143px;
+  }
+  .footer__block {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__items {
+    padding: 43px 0 25px;
+  }
+
+  .footer__text {
+    padding: 0;
+    padding-bottom: 24px;
+    margin: 0;
+  }
+}
+
+/*  Catalog.html adaptive */
+@media screen and (max-width: 768px) {
+  .filter__column,
+  .filter__column2 {
+    width: unset;
+    padding: 5px 0;
+  }
+
+  .trand__filter:last-child {
+    padding-right: 0;
+  }
+
+  .filter__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info__catmenu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page__catalog {
+    padding-top: 32px;
+  }
+  .filter__span {
+    background-size: 22px;
+  }
+  .filter__span::before {
+    content: "";
+  }
+
+  .tranding__now {
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #6f6e6e;
+  }
+}
+
+/* Product Adaptive  */
+
+@media screen and (max-width: 768px) {
+  .woman__collection {
+    margin-top: 0;
+  }
+  .col-sm-6:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .woman__border {
+    width: 174px;
+  }
+
+  .filters {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .filters:last-child {
+    margin-right: 0;
+  }
+
+  .col-sm-6:last-child {
+    display: flex;
+  }
+  .col-sm-6:nth-child(2) {
+    display: none;
+  }
+}
+
+/* Cart Adaptive */
+
+@media screen and (max-width: 1024px) {
+  .mainshop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop__bill {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .shop__total {
+    margin-top: 38px;
+  }
+  .bill__title {
+  }
+
+  .shop__form {
+    padding-left: 16px;
+  }
+
+  .buttons__pag {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shop__bill {
+    flex-direction: column;
+  }
+  .shop__info {
+    max-width: 144px;
+    padding: 13px 0 0 17px;
+  }
+  .shop__img {
+    max-width: 144px;
+    max-height: 188px;
+  }
+  .shop__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    color: #222222;
+  }
+
+  .shop__descrip {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    margin-top: 4px;
+    color: #575757;
+  }
+  .shop__form {
+    padding-left: 9px;
+  }
+  .xcard2 {
+    margin-top: 32px;
+  }
+  .buttons__pag {
+    margin: 0 8px;
+  }
+  .pagbut {
+    width: 175px;
+  }
+  .close__box {
+    top: 17px;
+    right: 12px;
+  }
+  .shop__card {
+    max-height: 188px;
+  }
+
+  .shop__menu {
+    margin-top: 25px;
+    margin-bottom: 23px;
+  }
+
+  .container {
+    max-width: 480px;
+  }
+}
