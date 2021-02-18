@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="adaptive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>SHOPPING CART</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="top">
+        <!-- Header Start -->
+        <header class="header">
+          <div class="menu container">
+            <div class="menu__left">
+              <div class="menu__nav">
+                <a href="index.html"><img src="img/ok.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="catalog.html"><img src="img/search.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="menu__right">
+              <div class="menu__nav">
+                <a href="product.html"><img src="img/menu.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="#"><img src="img/user.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="#"><img src="img/buy.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="info__catalog">
+          <div class="info__catmenu container shopcart">
+            <div class="arrivals__cat shopcart">
+              <p class="newarrivals">SHOPPING CART</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Header end -->
+
+        <!-- Shopping Cart start -->
+        <div class="mainshop container">
+          <div class="shopping__cards">
+            <div class="shop__card">
+              <figure class="shop__box">
+                <button class="close__box"><i class="fas fa-times"></i></button>
+                <div class="shop__img">
+                  <img class="shop__image" src="img/fetured_3.png" alt="" />
+                </div>
+
+                <figcaption class="shop__info">
+                  <h2 class="shop__title">MANGO PEOPLE T-SHIRT</h2>
+                  <div class="shop__menu">
+                    <p class="shop__descrip">
+                      Price: <span class="shopred">$300</span>
+                    </p>
+                    <p class="shop__descrip">Color: Red</p>
+                    <p class="shop__descrip">Size: Xl</p>
+                    <p class="shop__descrip">
+                      Quantity:
+                      <input class="shop__numb" type="number" name="" id="" />
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="shop__card xcard2">
+              <figure class="shop__box">
+                <button class="close__box"><i class="fas fa-times"></i></button>
+                <div class="shop__img">
+                  <img class="shop__image" src="img/cat2.png" alt="" />
+                </div>
+
+                <figcaption class="shop__info">
+                  <h2 class="shop__title">MANGO PEOPLE T-SHIRT</h2>
+                  <div class="shop__menu">
+                    <p class="shop__descrip">
+                      Price: <span class="shopred">$300</span>
+                    </p>
+                    <p class="shop__descrip">Color: Red</p>
+                    <p class="shop__descrip">Size: Xl</p>
+                    <p class="shop__descrip">
+                      Quantity:
+                      <input class="shop__numb" type="number" name="" id="" />
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="buttons__pag">
+              <button class="fetured__items__btn pagbut">
+                <span>CLEAR SHOPPING CART</span>
+              </button>
+              <button class="fetured__items__btn pagbut">
+                <span>CONTINUE SHOPPING</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="shop__bill">
+            <div class="shop__form">
+              <h2 class="bill__title">SHIPPING ADRESS</h2>
+              <form class="bill__form" action="#">
+                <input
+                  class="bill__input"
+                  type="text"
+                  id=""
+                  name=""
+                  placeholder="Bangladesh"
+                />
+
+                <input
+                  class="bill__input"
+                  type="text"
+                  id=""
+                  name=""
+                  placeholder="State"
+                />
+                <input
+                  class="bill__input"
+                  type="text"
+                  id=""
+                  name=""
+                  placeholder="Postcode / Zip"
+                />
+
+                <button class="fetured__items__btn getquote">
+                  <span>GET A QUOTE</span>
+                </button>
+              </form>
+            </div>
+
+            <div class="shop__total">
+              <div class="shop__buy">
+                <p class="shop__subtotal">
+                  SUB TOTAL <span class="shop__span">$900</span>
+                </p>
+                <p class="shop__grandtotal">
+                  GRAND TOTAL <span class="shop__span shopred">$900</span>
+                </p>
+              </div>
+
+              <div class="border__shop"></div>
+              <div class="btn__shop">
+                <button class="fetured__items__btn totalshop">
+                  <span>PROCEED TO CHECKOUT</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shopping card end -->
+
+        <!-- Subscribe start -->
+        <section class="subscribe">
+          <div class="subscribe__info container">
+            <div class="sub__info">
+              <div class="sub-image">
+                <img src="img/woman.png" alt="" />
+              </div>
+              <div class="sub-text">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                <em>a pulvinar purus condimentum“</em>
+              </div>
+            </div>
+            <div class="sub__form">
+              <div class="sub__title">SUBSCRIBE</div>
+              <div class="sub__subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
+              <form action="" class="subscribe__form">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  class="subscribe__input"
+                />
+                <button type="submit" class="subscribe__button">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Subscribe end -->
+      </div>
+
+      <!-- Footer start  -->
+      <footer class="footer">
+        <div class="footer__block container">
+          <div class="footer__copy">
+            <p class="footer__text">© 2021 Brand All Rights Reserved.</p>
+          </div>
+          <div class="footer__items">
+            <div class="footer-icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+  </body>
+</html>

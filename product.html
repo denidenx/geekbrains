@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="adaptive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Product</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="top">
+        <!-- Header Start -->
+        <header class="header">
+          <div class="menu container">
+            <div class="menu__left">
+              <div class="menu__nav">
+                <a href="index.html"><img src="img/ok.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="catalog.html"><img src="img/search.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="menu__right">
+              <div class="menu__nav">
+                <a href="product.html"><img src="img/menu.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="#"><img src="img/user.png" alt="" /></a>
+              </div>
+              <div class="menu__nav">
+                <a href="#"><img src="img/buy.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="info__catalog">
+          <div class="info__catmenu container">
+            <div class="arrivals__cat">
+              <p class="newarrivals">NEW ARRIVALS</p>
+            </div>
+            <div class="page__catalog">
+              <p class="page__cat">HOME</p>
+              <p class="page__cat">MEN</p>
+              <p class="page__cat">NEW ARRIVALS</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Header end -->
+        <!-- Carousel Start -->
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Image_Slide.png" class="d-block w-100" alt="" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/Image_Slide.png" class="d-block w-100" alt="" />
+            </div>
+          </div>
+          <button
+            class="btn__prev"
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide="prev"
+          >
+            <i class="fas fa-chevron-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="btn__next"
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide="next"
+          >
+            <i class="fas fa-chevron-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Woman Collection Start-->
+        <div class="container">
+          <div class="woman__collection">
+            <div class="woman__title">WOMEN COLLECTION</div>
+            <span class="wombor"></span>
+            <div class="woman__subtitle">MOSCHINO CHEAP AND CHIC</div>
+            <div class="woman__description">
+              Compellingly actualize fully researched processes before proactive
+              outsourcing. Progressively syndicate collaborative architectures
+              before cutting-edge services. Completely visualize parallel core
+              competencies rather than exceptional portals.
+            </div>
+            <span class="woman__price">$561</span>
+            <span class="woman__border"></span>
+            <div class="woman__filters">
+              <span class="filters"
+                >CHOOSE COLOR <i class="fas fa-chevron-down filters__icon"></i
+              ></span>
+
+              <span class="filters"
+                >CHOOSE SIZE<i class="fas fa-chevron-down filters__icon"></i
+              ></span>
+              <span class="filters"
+                >QUANTITY<i class="fas fa-chevron-down filters__icon"></i
+              ></span>
+            </div>
+            <div class="items__btn womancol">
+              <button class="fetured__items__btn product">
+                <i class="fas fa-shopping-cart btn__icon"></i>
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Woman Collection End -->
+
+        <!-- Fetured Items start -->
+        <section class="fetured__items">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-xl-4">
+                <figure class="items__card">
+                  <div class="card__img">
+                    <img src="img/fetured_4.png" class="card__image" alt="" />
+                    <div class="card__hover">
+                      <button class="card__btn">
+                        <i class="fas fa-shopping-cart btn__icon"></i>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                  <figcaption class="card__info">
+                    <p class="card__title">ELLERY X M'O CAPSULE</p>
+                    <p class="card__description">
+                      Known for her sculptural takes on traditional tailoring,
+                      Australian arbiter of cool Kym Ellery teams up with Moda
+                      Operandi.
+                    </p>
+                    <p class="card__price">$52.00</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <figure class="items__card">
+                  <div class="card__img">
+                    <img src="img/fetured_3.png" class="card__image" alt="" />
+                    <div class="card__hover">
+                      <button class="card__btn">
+                        <i class="fas fa-shopping-cart btn__icon"></i>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                  <figcaption class="card__info">
+                    <p class="card__title">ELLERY X M'O CAPSULE</p>
+                    <p class="card__description">
+                      Known for her sculptural takes on traditional tailoring,
+                      Australian arbiter of cool Kym Ellery teams up with Moda
+                      Operandi.
+                    </p>
+                    <p class="card__price">$52.00</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <figure class="items__card">
+                  <div class="card__img">
+                    <img src="img/fetured_6.png" class="card__image" alt="" />
+                    <div class="card__hover">
+                      <button class="card__btn">
+                        <i class="fas fa-shopping-cart btn__icon"></i>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                  <figcaption class="card__info">
+                    <p class="card__title">ELLERY X M'O CAPSULE</p>
+                    <p class="card__description">
+                      Known for her sculptural takes on traditional tailoring,
+                      Australian arbiter of cool Kym Ellery teams up with Moda
+                      Operandi.
+                    </p>
+                    <p class="card__price">$52.00</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fetured Items end -->
+
+        <!-- Delivery Start -->
+        <section class="delivery">
+          <div class="delivery__boxes container">
+            <div class="delivery__box">
+              <div class="delivery__image">
+                <img src="img/delivery.png" alt="" />
+              </div>
+              <div class="delivery__title">Free Delivery</div>
+              <div class="delivery__subtitle">
+                Worldwide delivery on all. Authorit tively morph<br />
+                next-generation innov tion with extensive models.
+              </div>
+            </div>
+            <div class="delivery__box">
+              <div class="delivery__image">
+                <img src="img/sales.png" alt="" />
+              </div>
+              <div class="delivery__title">Sales & discounts</div>
+              <div class="delivery__subtitle">
+                Worldwide delivery on all. Authorit tively morph<br />
+                next-generation innov tion with extensive models.
+              </div>
+            </div>
+            <div class="delivery__box">
+              <div class="delivery__image">
+                <img src="img/quality.png" alt="" />
+              </div>
+              <div class="delivery__title">Quality assurance</div>
+              <div class="delivery__subtitle">
+                Worldwide delivery on all. Authorit tively morph<br />
+                next-generation innov tion with extensive models.
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Delivery end -->
+        <!-- Subscribe start -->
+        <section class="subscribe">
+          <div class="subscribe__info container">
+            <div class="sub__info">
+              <div class="sub-image">
+                <img src="img/woman.png" alt="" />
+              </div>
+              <div class="sub-text">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                <em>a pulvinar purus condimentum“</em>
+              </div>
+            </div>
+            <div class="sub__form">
+              <div class="sub__title">SUBSCRIBE</div>
+              <div class="sub__subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
+              <form action="" class="subscribe__form">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  class="subscribe__input"
+                />
+                <button type="submit" class="subscribe__button">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Subscribe end -->
+      </div>
+
+      <!-- Footer start  -->
+      <footer class="footer">
+        <div class="footer__block container">
+          <div class="footer__copy">
+            <p class="footer__text">© 2021 Brand All Rights Reserved.</p>
+          </div>
+          <div class="footer__items">
+            <div class="footer-icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div class="footer-icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+  </body>
+</html>
