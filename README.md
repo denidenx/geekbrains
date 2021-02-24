@@ -1,2 +1,0 @@
-# geekbrains
-homework
