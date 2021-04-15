@@ -1,5 +1,4 @@
 .overlay {
-  display: none;
   position: fixed;
   top: 75px;
   left: 0;
@@ -8,9 +7,9 @@
   z-index: 3;
   width: 100%;
   opacity: 0;
-  pointer-events: none;
   -webkit-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
+  pointer-events: none;
 }
 
 .overlay .menu {
@@ -20,6 +19,7 @@
   position: absolute;
   right: -232px;
   width: 232px;
+
   -webkit-transition: right 0.2s ease-in;
   transition: right 0.2s ease-in;
 }
